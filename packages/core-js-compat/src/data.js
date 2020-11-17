@@ -1252,8 +1252,6 @@ const data = {
     firefox: '53',
     safari: '10.0',
   },
-  // TODO: Remove from `core-js@4`
-  'esnext.aggregate-error': null,
   'esnext.array.at': {
     chrome: '89',
   },
@@ -1415,8 +1413,6 @@ const data = {
   },
   'esnext.observable': {
   },
-  // TODO: Remove from `core-js@4`
-  'esnext.promise.any': null,
   'esnext.promise.try': {
   },
   'esnext.reflect.define-metadata': {
@@ -1557,9 +1553,5 @@ const data = {
     node: '10.0',
   },
 };
-
-// TODO: Remove from `core-js@4`
-data['esnext.aggregate-error'] = data['es.aggregate-error'];
-data['esnext.promise.any'] = data['es.promise.any'];
 
 module.exports = data;
