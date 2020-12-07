@@ -1402,8 +1402,6 @@ const data = {
   },
   'esnext.symbol.observable': {
   },
-  'esnext.symbol.pattern-match': {
-  },
   'esnext.typed-array.at': {
     chrome: '89',
   },
